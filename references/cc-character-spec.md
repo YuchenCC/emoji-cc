@@ -22,7 +22,7 @@ CC is a friendly young office-worker cartoon avatar with a clean and cute person
 - Keep the head and face compact like the source portrait; avoid a long oval face, narrow cheeks, sharp V-shaped chin, or adult fashion-portrait proportions.
 - Use clear silhouettes and generous padding around the character.
 - Use a bright, clean palette with soft shadows.
-- Avoid complex office backgrounds in sticker outputs unless the prompt specifically needs a prop.
+- Use simple contextual backgrounds for sticker outputs. Match the background to the theme when a clear scene is implied; otherwise use CC's standard bright modern office workstation context. Keep the environment clean and secondary to CC.
 
 ## Consistency Rules
 

@@ -4,6 +4,15 @@
 
 Start every production round from the approved official CC reference in `assets/cc/reference/`. The original image in `references/cc-original-reference.png` is the source reference, not the final style lock.
 
+For new sticker themes, use only:
+
+- `references/cc-character-spec.md`
+- `assets/cc/reference/cc-official-reference-v2.png`
+- `references/cc-office-environment-spec.md`
+- `assets/cc/reference/cc-office-environment-final.png`
+
+Do not use previous generated stickers from `assets/cc/stickers/` or drafts from `assets/cc/drafts/` as image references, style references, composition references, or pose references.
+
 ## 2. Prompt
 
 Use `prompts/sticker-template.prompt.md` for each sticker. Replace:
@@ -11,7 +20,7 @@ Use `prompts/sticker-template.prompt.md` for each sticker. Replace:
 - `<emotion_or_action>` with the sticker meaning
 - `<pose_expression_detail>` with the matching detail from `prompts/sticker-backlog.md`
 
-Generate one sticker per prompt. Do not ask the model to create a sheet of many stickers in one image.
+Generate exactly one image and one sticker concept per prompt. Do not ask the model to create a collage, grid, multi-panel image, sticker sheet, or multiple variants in one image.
 
 ## 3. Output
 
@@ -44,4 +53,5 @@ Before approving an asset:
 - The expression is readable without text.
 - There are no generated captions, random letters, logos, or watermarks.
 - The silhouette works at small sticker size.
-- Transparent edges are clean, or the flat background can be removed cleanly.
+- The background matches the sticker theme. If the theme is ambiguous, use the standard office workstation background from `references/cc-office-environment-spec.md`.
+- The background stays clean, simple, low-clutter, and does not compete with CC.
