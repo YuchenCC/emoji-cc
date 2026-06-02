@@ -1,0 +1,36 @@
+{
+  "project": "emoji-cc",
+  "ip_name": "CC",
+  "style": "clean cute 2D cartoon meme stickers",
+  "reference": {
+    "source_image": "references/cc-original-reference.png",
+    "official_reference": "assets/cc/reference/cc-official-reference-v2.png",
+    "character_spec": "references/cc-character-spec.md"
+  },
+  "stickers": [
+    { "id": "001", "slug": "happy", "meaning": "happy greeting", "status": "planned", "path": null },
+    { "id": "002", "slug": "received", "meaning": "received", "status": "planned", "path": null },
+    { "id": "003", "slug": "nodding", "meaning": "strongly agree", "status": "planned", "path": null },
+    { "id": "004", "slug": "thinking", "meaning": "thinking", "status": "planned", "path": null },
+    { "id": "005", "slug": "confused", "meaning": "confused", "status": "planned", "path": null },
+    { "id": "006", "slug": "shocked", "meaning": "shocked", "status": "planned", "path": null },
+    { "id": "007", "slug": "awkward", "meaning": "awkward smile", "status": "planned", "path": null },
+    { "id": "008", "slug": "wronged", "meaning": "wronged", "status": "planned", "path": null },
+    { "id": "009", "slug": "tired", "meaning": "tired", "status": "planned", "path": null },
+    { "id": "010", "slug": "overtime", "meaning": "working late", "status": "planned", "path": null },
+    { "id": "011", "slug": "cheering", "meaning": "cheering", "status": "planned", "path": null },
+    { "id": "012", "slug": "cool", "meaning": "pretending cool", "status": "planned", "path": null },
+    { "id": "013", "slug": "observe", "meaning": "secretly observing", "status": "planned", "path": null },
+    { "id": "014", "slug": "panic", "meaning": "panic", "status": "planned", "path": null },
+    { "id": "015", "slug": "facepalm", "meaning": "facepalm", "status": "planned", "path": null },
+    { "id": "016", "slug": "sleepy", "meaning": "sleepy", "status": "planned", "path": null },
+    { "id": "017", "slug": "celebrate", "meaning": "celebrate", "status": "planned", "path": null },
+    { "id": "018", "slug": "reject", "meaning": "no thanks", "status": "planned", "path": null },
+    { "id": "019", "slug": "please", "meaning": "please", "status": "planned", "path": null },
+    { "id": "020", "slug": "proud", "meaning": "proud", "status": "planned", "path": null },
+    { "id": "021", "slug": "meltdown", "meaning": "emotional overload", "status": "planned", "path": null },
+    { "id": "022", "slug": "snack", "meaning": "snack break", "status": "planned", "path": null },
+    { "id": "023", "slug": "salute", "meaning": "got it", "status": "planned", "path": null },
+    { "id": "024", "slug": "empty", "meaning": "brain empty", "status": "planned", "path": null }
+  ]
+}
